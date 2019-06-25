@@ -8,14 +8,14 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='aurora-cms',  # Required
+    name='test-cms',  # Required
     version='1.1.0',  # Required
     description='CMS project',  # Optional
     long_description=long_description,  # Optional
     long_description_content_type='text/markdown',  # Optional (see note above)
     #url='https://github.com/pypa/sampleproject',  # Optional
-    author='OMD',  # Optional
-    author_email='diana.hovhannisyan@onetick.com',  # Optional
+    author='Diana Hovhannisyan',  # Optional
+    author_email='d.hovhannisyan@gmail.com',  # Optional
 
     # Classifiers help users find your project by categorizing it.
     #
